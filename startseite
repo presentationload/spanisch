@@ -1,0 +1,392 @@
+[{veparse}][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="banner_headline">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>[{oxmultilang ident="START_BANNER_H1"}]</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12" id="search">
+
+                <form data-toggle="validator" role="form" action="[{$oViewConf->getSelfActionLink()}]" method="get" name="search">
+                    [{$oViewConf->getHiddenSid()}]
+                    <div class="form-group search has-feedback">
+                        <div class="">
+                            <div class="form-group col-xs-12 col-lg-6 col-lg-offset-3">
+                                <div class="inner-addon left-addon">
+                                    <button type="submit" class="enabled btn">
+                                        <img src="[{file prefix=$oViewConf->getImageUrl() path="start/search-icon.svg"}]"/>
+                                    </button>
+                                    [{block name="header_search_field"}]
+                                        <input type="hidden" name="cl" value="search">
+                                        <input class="form-control" required type="text" id="searchParam" name="searchparam" value="[{$oView->getSearchParamForHtml()}]" placeholder="[{oxmultilang ident='START_SEARCH_EXAMPLE'}]" data-error="[{oxmultilang ident='START_SEARCH_ERROR'}]">
+                                    [{/block}]
+                                </div>
+                            </div>
+                        </div>
+                        [{block name="pl_search_suggestions"}][{/block}]
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>[{oxmultilang ident="START_BANNER_P"}]</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="banner_footer">
+        <a href="[{oxgetseourl oxid='d0a6cdc1ac56cdd5a12e64a0ff5ebd01' type='oxcategory'}]" title="[{oxmultilang ident='TOP_NAVIGATION_4'}]" class="btn btn-success">[{oxmultilang ident="START_VIEW_PRICING"}]</a>
+        <a href="[{oxgetseourl oxid='4b33e29da688b5b6d8ef72368ac6632f' type='oxcategory'}]" title="[{oxmultilang ident='TOP_NAVIGATION_4'}]" class="btn transparent_withe">[{oxmultilang ident="START_VIEW_CATEGORIES"}]</a>
+    </div>
+</div>[/text][/col][/row][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="container section2">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h2>[{oxmultilang ident="START_SECTION2_HEADLINE"}]</h2>
+        </div>
+    </div>
+    <aside>
+        <div class="row cat-listing">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='ab8475426a1407ff6.04255743' type='oxcategory'}]" title="[{plgetCatTitle oxid='ab8475426a1407ff6.04255743'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/new-ppt-templates.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT1"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='4b33e29da688b5b6d8ef72368ac6632f' type='oxcategory'}]" title="[{plgetCatTitle oxid='4b33e29da688b5b6d8ef72368ac6632f'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-business-templates.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT2"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='cc946aa4fd37e6256.01292991' type='oxcategory'}]" title="[{plgetCatTitle oxid='cc946aa4fd37e6256.01292991'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-diagrams.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT3"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='ac1da56631b6fba183f2ef07b9ac2a3a' type='oxcategory'}]" title="[{plgetCatTitle oxid='ac1da56631b6fba183f2ef07b9ac2a3a'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-graphics-shapes.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT4"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='d9a45e829b6129b34.99709503' type='oxcategory'}]" title="[{plgetCatTitle oxid='d9a45e829b6129b34.99709503'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-maps.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT5"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='1734d31a15beea86aa181c2b15a00fb5' type='oxcategory'}]" title="[{plgetCatTitle oxid='1734d31a15beea86aa181c2b15a00fb5'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-design-templates.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT6"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='81727db5acd4085a0929e53408611a1f' type='oxcategory'}]" title="[{plgetCatTitle oxid='81727db5acd4085a0929e53408611a1f'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-infographics.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT7"}]</div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="[{oxgetseourl oxid='18a76733808f03adf4d4c24e4920feea' type='oxcategory'}]" title="[{plgetCatTitle oxid='18a76733808f03adf4d4c24e4920feea'}]">
+                    <img src="[{$oViewConf->getImageUrl()}]start/powerpoint-flat-design-templates.jpg" alt=""/>
+                    <div class="cat-overlay-dark"></div>
+                    <div class="cat-overlay">[{oxmultilang ident="START_SECTION2_CAT8"}]</div>
+                </a>
+
+            </div>
+        </div>
+        [{*<div class="row">
+            <div class="col-xs-12 text-center">
+                <a href="#" class="btn withe">[{oxmultilang ident="START_VIEW_ALL_CATEGORIES"}]</a>
+            </div>
+        </div>*}]
+    </aside>
+</div>[/text][/col][/row][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="container-fluid section3">
+    <div class="container">
+        <div class="row" id="recom_products">
+            <div class="col-xs-12 headline">
+                <h3>[{oxmultilang ident="START_SECTION3_HEADLINE"}]</h3>
+                <p>[{oxmultilang ident="START_SECTION3_SUBHEADLINE"}]</p>
+            </div>
+            [{block name="ems_personal_rec"}]
+                <script type="text/javascript">
+                    var ScarabQueue = ScarabQueue || [];
+                    (function(id) {
+                        if (document.getElementById(id)) return;
+                        var js = document.createElement('script'); js.id = id;
+                        js.src = '//cdn.scarabresearch.com/js/14EBF36F9F0C99E1/scarab-v2.js';
+                        var fs = document.getElementsByTagName('script')[0];
+                        fs.parentNode.insertBefore(js, fs);
+                    })('scarab-js-api');
+                </script>
+                [{strip}]
+                [{if $oView->getActiveLangAbbr()=="de"}]
+                    <script type="text/html" id="simple-tmpl">
+                        <![CDATA[
+                        <div id="new-products">
+                            <div class="row">
+                                <div class="col-xs-12 product-grid infogrid" id="productList">
+                                    [{assign var="t" value=50}]
+                                    {{ for (var i=0; i < SC.page.products.length; i++) { }}
+                                    {{ var p = SC.page.products[i]; }}
+                                    <div class="col-xs-12 col-sm-4 col-md-3 thin productData" data-scarabitem="{{= p.id }}">
+                                        <div class="product">
+                                            <a href="{{=p.link}}">
+                                                <img src="{{=p.image}}" class="rec-image">
+                                            </a>
+    
+                                        </div>
+                                    </div>
+                                    {{ } }}
+                                </div>
+                            </div>
+                        </div>
+                        ]]>
+                    </script>
+                    [{else}]
+                    <script type="text/html" id="simple-tmpl">
+                        <![CDATA[
+                        <div id="new-products">
+                            <div class="row">
+                                <div class="col-xs-12 product-grid infogrid" id="productList">
+                                    [{assign var="t" value=50}]
+                                    {{ for (var i=0; i < SC.page.products.length; i++) { }}
+                                    {{ var p = SC.page.products[i]; }}
+                                    <div class="col-xs-12 col-sm-4 col-md-3 thin productData" data-scarabitem="{{= p.id }}">
+                                        <div class="product">
+                                            <a href="{{=p.c_link_en}}">
+                                                <img src="{{=p.c_image_en}}" class="rec-image">
+    
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {{ } }}
+                                </div>
+                            </div>
+                        </div>
+                        ]]>
+                    </script>
+                [{/if}]
+                    <div id="personal-recs"></div>
+                [{/strip}]
+                [{oxscript add="ScarabQueue.push(['recommend', { logic: 'PERSONAL', containerId: 'personal-recs', templateId: 'simple-tmpl', } ]); "}]
+            [{/block}]
+        </div>
+
+        [{if $oView->getNewestArticles()}]
+            <div class="row" id="newsest_article">
+                <div class="col-xs-12 headline">
+                    <h3>[{oxmultilang ident="START_SECTION2_NEWEST_ARTICLES"}]</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    [{include file="custom/widget/product/list_start.tpl" type=$oViewConf->getViewThemeParam('sStartPageListDisplayType') head="JUST_ARRIVED"|oxmultilangassign listId="productList" products=$oView->getNewestArticles() rsslink=$rsslinks.newestArticles rssId="rssNewestProducts" showMainLink=true}]
+                </div>
+            </div>
+        [{/if}]
+    </div>
+</div>[/text][/col][/row][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="container-fluid section4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 headline">
+                <h3>[{oxmultilang ident="START_SECTION4_HEADLINE"}]</h3>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="ic ch-time"></i>
+                <h5>[{oxmultilang ident="START_SECTION4_BENEFIT_HEADLINE_1"}]</h5>
+                <p>[{oxmultilang ident="START_SECTION4_BENEFIT_1"}]</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="ic bd-presenting"></i>
+                <h5>[{oxmultilang ident="START_SECTION4_BENEFIT_HEADLINE_2"}]</h5>
+                <p>[{oxmultilang ident="START_SECTION4_BENEFIT_2"}]</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="ic laptop-msg"></i>
+                <h5>[{oxmultilang ident="START_SECTION4_BENEFIT_HEADLINE_3"}]</h5>
+                <p>[{oxmultilang ident="START_SECTION4_BENEFIT_3"}]</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="ic sc-lock"></i>
+                <h5>[{oxmultilang ident="START_SECTION4_BENEFIT_HEADLINE_4"}]</h5>
+                <p>[{oxmultilang ident="START_SECTION4_BENEFIT_4"}]</p>
+            </div>
+        </div>
+
+    </div>
+</div>[/text][/col][/row][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<aside>
+    <div class="container-fluid section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 headline">
+                    <h3>[{oxmultilang ident="START_SECTION5_HEADLINE"}]</h3>
+                    <p>[{oxmultilang ident="START_SECTION5_SUBHEADLINE"}]</p>
+                    <a href="[{if $oView->getActiveLangAbbr()=="de"}] [{oxgetseourl ident='kunden' type='oxcontent'}] [{else}] [{oxgetseourl ident='customerlists' type='oxcontent'}] [{/if}]"><img src="[{$oViewConf->getImageUrl()}]start/customer_logos.gif" alt="customer_logos_[{$oView->getActiveLangAbbr()}]" title="Customer Logos" style="width: auto;"/></a>
+                </div>
+            </div>
+
+
+            [{if $oView->getActiveLangAbbr() == 'de' || $oView->getActiveLangAbbr() == 'en' || $oView->getActiveLangAbbr() == 'es'}]
+                <div class="cd-testimonials-wrapper cd-container">
+                    [{oxstyle include="css/testimonials/testimonials.css" priority=10}]
+                    [{oxscript include='js/testimonials/masonry.pkgd.min.js' priority=10}]
+                    [{oxscript include='js/testimonials/jquery.flexslider-min.js' priority=10}]
+                    [{oxscript include='js/testimonials/main.js' priority=10}]
+                    <ul class="cd-testimonials">
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_1"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Laurie_Quinn.jpg" alt="Laurie Quinn">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_1"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_1"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_2"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Jose_Mussi.jpg" alt="Jose Mussi">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_2"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_2"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_3"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Chris_Cheesman.jpg" alt="Chris Cheesman">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_3"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_3"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_4"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Ethan_Chen.jpg" alt="Ethan Chen">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_4"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_4"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_5"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Jonathan_Eisenzopf.jpg" alt="Jonathan Eisenzopf">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_5"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_5"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_6"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Uwe_remppel_firmenlogo.jpg" alt="Uwe Remppel">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_6"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_6"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                        <li class="cd-testimonials-item">
+                            <p>[{oxmultilang ident="START_TESTIMONIALS_CONTENT_7"}]</p>
+                            <div class="cd-author">
+                                <img src="[{$oViewConf->getImageUrl()}]testimonials/Urs_Frey.jpg" alt="Urs Frey">
+                                <ul class="cd-author-info">
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_NAME_7"}]</li>
+                                    <li>[{oxmultilang ident="START_TESTIMONIALS_COMPANY_7"}]</li>
+                                </ul>
+                            </div><!-- cd-author -->
+                        </li>
+                    </ul>
+                </div>
+            [{/if}]
+        </div>
+    </div>
+</aside>[/text][/col][/row][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="container-fluid section6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3>[{oxmultilang ident="START_SECTION7_HEADLINE"}]</h3>
+            </div>
+        </div>
+        <aside>
+            <div class="row cat-listing">
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='3f642a73f206cd4b6b8f611e123f7df1' type='oxcategory'}]" title="[{plgetCatTitle oxid='3f642a73f206cd4b6b8f611e123f7df1'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-marketing-sales-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT1"}]</div>
+                    </a>
+
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='fca4f1757b579c600472b3f8094b1fa4' type='oxcategory'}]" title="[{plgetCatTitle oxid='fca4f1757b579c600472b3f8094b1fa4'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-strategy-project-planning-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT2"}]</div>
+                    </a>
+
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='9c733a0cda898349391975844d1c18f2' type='oxcategory'}]" title="[{plgetCatTitle oxid='9c733a0cda898349391975844d1c18f2'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-management-consulting-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT3"}]</div>
+                    </a>
+
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='186f2568895325cdabd5c82999f68853' type='oxcategory'}]" title="[{plgetCatTitle oxid='186f2568895325cdabd5c82999f68853'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-it-service-technology-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT4"}]</div>
+                    </a>
+
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='4969fc5feb4f78d957d9a47f78fbadb7' type='oxcategory'}]" title="[{plgetCatTitle oxid='4969fc5feb4f78d957d9a47f78fbadb7'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-financial-controlling-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT5"}]</div>
+                    </a>
+
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="[{oxgetseourl oxid='f82c2341f18750fdcb3ff70f049ce625' type='oxcategory'}]" title="[{plgetCatTitle oxid='f82c2341f18750fdcb3ff70f049ce625'}]">
+                        <img src="[{$oViewConf->getImageUrl()}]start/ppt-design-templates.jpg" alt=""/>
+                        <div class="cat-overlay-dark"></div>
+                        <div class="cat-overlay">[{oxmultilang ident="START_SECTION7_CAT6"}]</div>
+                    </a>
+
+                </div>
+            </div>
+
+        </aside>
+    </div>
+</div>[/text][/col][/row][{/veparse}]
